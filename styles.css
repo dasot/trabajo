@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.opcion {
+    text-align: center;
+    margin: 10px;
+    width: 450px; /* Ancho fijo para las opciones */
+}
+
+.opcion img {
+    width: 100%; /* Ocupar el 100% del ancho de la opción */
+    height: 350px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajustar la imagen manteniendo las proporciones */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
